@@ -18,6 +18,15 @@
 ## 环境
 - 推荐在go:1.20+的环境中使用
 
+## 安装
+```bash
+go get github.com/GohperBridge/service-tools
+```
+## 使用
+| 分类 | 包 | 描述 |
+| --- | --- | --- |
+| 雪花算法 | service-tools/snowflake | 雪花ID生成器及相关处理工具 |
+
 # 关注进度
 1. 给项目点个Start
 2. 关注[无别小站](https://wubie.quanmwl.com)
