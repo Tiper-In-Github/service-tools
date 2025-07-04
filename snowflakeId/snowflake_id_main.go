@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"net"
 	"service-tools/utils"
+	"strconv"
 	"time"
 )
 
@@ -17,6 +18,18 @@ type SnowflakeId struct {
 	lastTimestamp int64   // 上次生成ID的时间戳
 
 	value int64
+}
+
+// NewInt64 创建int64雪花ID实例并应用默认设置
+func NewInt64() int64 {
+	id, _ := New().NextId()
+	return id
+}
+
+// NewString 创建string雪花ID实例并应用默认设置
+func NewString() string {
+	id, _ := New().NextId()
+	return strconv.Itoa(int(id))
 }
 
 // New 创建雪花ID实例并应用默认设置
