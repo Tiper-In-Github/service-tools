@@ -18,6 +18,11 @@
 ## Environment
 It is recommended for use in an environment of go:1.20+
 
+## Usage
+| Category | Package | Description | Document |
+| --- | --- | --- | --- |
+| Snowflake algorithm | service-tools/snowflake | Snowflake ID generator and related processing tools | [Document](/snowflakeId/README.en.md) |
+
 # Follow Progress
 1. Give the project a Start
 2. Focus on [无别小站](https://wubie.quanmwl.com)

@@ -23,9 +23,9 @@
 go get github.com/GohperBridge/service-tools
 ```
 ## 使用
-| 分类 | 包 | 描述 |
-| --- | --- | --- |
-| 雪花算法 | service-tools/snowflake | 雪花ID生成器及相关处理工具 |
+| 分类 | 包 | 描述 | 文档 |
+| --- | --- | --- | --- |
+| 雪花算法 | service-tools/snowflake | 雪花ID生成器及相关处理工具 | [文档](/snowflakeId/README.md) |
 
 # 关注进度
 1. 给项目点个Start
